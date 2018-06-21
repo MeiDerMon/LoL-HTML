@@ -1,0 +1,115 @@
+body {
+    background-size: cover;                      
+    background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.t1 {
+	border: solid;
+	border-radius: 25px;
+	border-color: #ffd11a;
+	border-width: 2px;
+	background: rgba(100, 100, 175, 0.3)
+}
+
+
+.t2 {
+	border: solid;
+	border-color: #ffd11a;
+	margin: auto;
+	width: 75%;
+	height: 50px;
+	text-align: center;
+	border-width: 2px;
+	background: rgba(85, 85, 145, 0.4);
+	border-top: rgba(0,0,0,0);
+	border-bottom-left-radius: 40px 25px;
+	border-bottom-right-radius: 40px 25px;
+}
+
+.dropdown-champ {
+	display: inline-block;
+	position: relative;
+}
+
+.drop-content {
+	margin: 5px;
+	border: solid;
+	border-color: #ffd11a;
+	border-width: 2px;
+	background: rgba(85, 85, 145, 0.6);
+	border-top: rgba(0,0,0,0);
+	border-bottom-left-radius: 40px 25px;
+	border-bottom-right-radius: 40px 25px;
+	visibility: hidden;
+	transition: visibility 0.3s;
+	position:absolute;
+	z-index: 1;
+}
+
+.dropdown-champ:hover .drop-content {
+	visibility: visible;
+}
+
+.t2 a {
+	font-size: 40px;
+	text-decoration: none;
+	color: #FFFFFF;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.t3 {
+	border: solid;
+	border-color: #ffd11a;
+	margin: auto;
+	margin-top: 40px;
+	margin-bottom: -25px;
+	width: 75%;
+	border-width: 2px;
+	background: rgba(50, 50, 75, 0.8);
+	border-top-left-radius: 40px;
+	border-top-right-radius: 40px;
+	border-bottom: rgba(0,0,0,0);
+}
+
+.t3 p{
+	font-size: 25px;
+	text-decoration: none;
+	color: #FFFFFF;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	padding-bottom:15px;
+	margin-left: 25px;
+	margin-right: 25px;	
+}
+
+.t4 {
+	height:80px;
+	margin-top:0px;
+	text-align:center;
+	padding-bottom: 15px;
+	border: solid;
+	border-color: #ffd11a;
+	border-width: 2px;
+	border-top-left-radius: 40px 25px;
+	border-top-right-radius: 40px 25px;
+	background: rgba(50, 50, 75, 0.6)
+}
+
+.t4 p{
+	font-size: 20px;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.t4 img {
+	vertical-align: middle;
+}
+
+
+.t4 a {
+	margin-left: 25px;
+	margin-right: 25px;
+}
